@@ -1,0 +1,163 @@
+/*General Stying*/
+
+*{
+  box sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 h3, .btn {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #1bbc9b;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+section {
+  padding 40px 30px
+}
+/*nagvigational styling*/
+nav {
+  background: black;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav ul {
+  padding:27px;
+  float: right;
+  margin-top: 25px;
+}
+
+nav ul li {
+  display:inline;
+  margin-left: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*Header styling*/
+
+header{
+background: black url(../images/header-bg.jpg) center no-repeat;
+color: white;
+text-align: center;
+height: 600px;
+padding-top: 250px;
+}
+
+header h2{
+  margin-bottom: 30px;
+}
+
+/*Features styling*/
+
+.features{
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 70px;
+}
+
+.features article{
+  width: 22%;
+  display: inline-block;;
+}
+
+.features article .btn{
+  color: #1bbc9b;
+  background: white;
+  border: 1px solid #1bbc9b;
+}
+
+/*mockup styling*/
+
+.mockup{
+background: black url(../images/mockup-bg.jpg) center no-repeat;
+color: white;
+text-align: center;
+height: 600px;
+padding-top: 50px;
+}
+
+/*client styling*/
+
+.clients{
+    padding-top: 30px;
+    text-align: center;
+  background-color: #1bbc9b;
+  color: white;
+}
+
+.clients ul li{
+  display: inline-block;
+}
+
+.clients ul li img{
+  max-width: 150px;
+}
+
+.clients .btn{
+  color: white;
+  border: 1px solid white;
+  margin: 30px;
+  transition: all .2s ease;
+}
+
+.clients .btn:hover{
+  background: white;
+  color: #1bbc9b;
+
+}
+
+/*footer styling*/
+.footer{
+  padding-top: 30px;
+  text-align: center;
+  background-color: #000000;
+}
+footer ul{
+  padding: 0;
+}
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li img{
+  max-width: 30px;
+    display: inline-block;
+}
+
+/*Media queries*/
+@media (max-width: 768px) {
+  nav {
+    text-align: center;
+    padding: 20px 0;
+  }
+  nav ul {
+    float:none;
+  }
+
+  .features article {
+    width: 100%;
+    display: block;
+  }
+
+  .mockup img{
+    max width: 100%;
+  }
+}
